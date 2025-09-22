@@ -1,0 +1,9 @@
+name: CI Example
+
+on: [push]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Hello form GitHub Actions!"
